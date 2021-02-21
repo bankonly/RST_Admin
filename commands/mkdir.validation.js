@@ -1,7 +1,7 @@
 const { LOG, Mkdir } = require("../utils/common-func");
 const METHOD = "Validation";
 const FILE_TYPE = ".validation.js";
-let WRITE_PATH = "./src/validations/";
+let WRITE_PATH = "validations/";
 const READ_FILE = WRITE_PATH + "example.validation.js";
 
 try {

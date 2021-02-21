@@ -1,7 +1,7 @@
 const { LOG, Mkdir } = require("../utils/common-func");
 const METHOD = "Controller";
 const FILE_TYPE = ".controller.js";
-let WRITE_PATH = "./src/controllers/";
+let WRITE_PATH = "controllers/";
 const READ_FILE = WRITE_PATH + "example.controller.js";
 
 try {

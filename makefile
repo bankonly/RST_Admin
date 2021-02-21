@@ -14,3 +14,5 @@ git:
 	git push
 dev:
 	npm run start
+mrc:
+	npm run make:all "$m"
