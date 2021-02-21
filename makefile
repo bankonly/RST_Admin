@@ -12,3 +12,7 @@ git:
 	git add .
 	git commit -m "$m"
 	git push
+dev:
+	npm run start
+mrc:
+	npm run make:all "$m"

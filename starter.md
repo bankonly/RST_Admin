@@ -1,17 +1,45 @@
-# Node GraphQL 
-## Reserved & Booking Restaurant
->initial project
-```
-npm i 
-cp .env.example .env 
-```
+# Node.js for beginner
 
->Edit .env file 
-
+>Initial project for node js 
 ```
+npm init 
+```
+>install the package for run node js 
+```
+npm i @hapi/joi axios bcrypt bcryptjs body-parser cors dot-env dotenv express express-fileupload jsonwebtoken mongoose mongoose-seequence morgan multer nodemailer nodemon sharp validator  winston
+```
+>Make your folder structure
+
+- configs
+  - database.js
+  - socket.js
+- controllers
+  - index.js
+  - opt.controller.js
+  - user.controller.js
+- middleware
+  - auth.js
+  - auth0-reset-password.js
+- models
+  - opt.models.js
+  - user.models.js
+- routes
+  - index.js
+  - user.routes.js
+- storages
+  - opt.js
+- utils 
+  - mongo-query.js
+- validations
+  - otp.js
+- .env
+- .env.example
+- server.js
+>.env file for example 
+```.env
 APP_NAME=NODESTARTER
 APP_HOST=http://127.0.0.1
-APP_PORT=2020
+APP_PORT=3000
 ENV_APP=local
 
 DB_CLOUD=
@@ -37,8 +65,8 @@ IMAGE_TYPE_ACCEPT=jpg,png,jpeg,jfjf
 IMAGE_SIZE_ALLOW=100000
 
 MAIL_SERVICE=gmail
-MAIL_ID=vongkeokeosavanh@gmail.com
-MAIL_PASSWORD=123
+MAIL_ID= 
+MAIL_PASSWORD= 
 
 SOCKET_ENV=local
 
@@ -48,25 +76,4 @@ OTP_EXPIRED_TIME=60
 TOKEN_LIFE_TIME_RESET=1m
 RESET_OTP_LINK
 ```
->start mongo 
-
-```
-mongod 
-brew services start mongodb
-```
->kill node if not sure 
-```
-killall node 
-or kill pid 
-kill -9 pid 
-```
->Touch makefile
-```
-git:
-	git add .
-	git commit -m "$m"
-	git push
-    
-```
-
-
+>setup your server file 

@@ -13,7 +13,7 @@ InitialDatabase();
 // Config all middleware
 InitialApp(app);
 
-// inital all routes
+// initial all routes
 InitialRoute(app);
 
 //On end middleware
@@ -24,4 +24,4 @@ const listener = app.listen(process.env.APP_PORT);
 //config socket Io
 InitSocket(listener);
 
-LOG("Server Started " + process.env.APP_PORT);
+LOG("Server running at http://localhost:" + process.env.APP_PORT);

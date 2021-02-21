@@ -1,7 +1,7 @@
 const { LOG, Mkdir } = require("../utils/common-func");
 const METHOD = "Route";
 const FILE_TYPE = ".route.js";
-let WRITE_PATH = "./src/routes/";
+let WRITE_PATH = "routes/";
 const READ_FILE = WRITE_PATH + "example.route.js";
 
 try {

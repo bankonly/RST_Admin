@@ -1,7 +1,7 @@
 const { LOG, Mkdir } = require("../utils/common-func");
 const METHOD = "Model";
 const FILE_TYPE = ".model.js";
-let WRITE_PATH = "./src/models/";
+let WRITE_PATH = "models/";
 const READ_FILE = WRITE_PATH + "example.model.js";
 
 try {
