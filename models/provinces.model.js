@@ -5,7 +5,8 @@ const model_name = "provinces";
 
 const schema = new mongoose.Schema(
   {
-    field: { type: String, required: true },
+    name: { type: String, required: true },
+    name_en: { type: String, required: true },
     reference: { type: mongoose.Schema.Types.ObjectId, ref: "collection_name" },
     deleted_at: { type: Date, default: null },
   },

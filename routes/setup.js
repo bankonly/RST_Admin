@@ -5,7 +5,7 @@ const Auth = require("../middlewares/auth");
 const OtpAuth = require("../middlewares/auth-reset-password");
 const OtpRouter = require("./otp.route");
 
-const InitialRoute = (app) => {
+const InitialRoute = app => {
   app.use("/api", Auth, [UserRouter, SessionRoute]);
   app.use("/api/otp", OtpAuth, [OtpRouter]);
 
