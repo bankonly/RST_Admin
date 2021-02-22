@@ -1,8 +1,9 @@
 const Catcher = require("../middlewares/async");
 const { Res } = require("../utils/common-func");
-const { provinces } = require('../seeders/province.json')
-const ProvinceModel = require('../models/provinces.model')
-const ProvincesController = {
+const districtModel = require('../models/districts.model')
+const { districts } = require('../seeders/districts.json')
+
+const districtsController = {
   list: Catcher(async (req, res) => {
     const resp = new Res(res);
     return resp.success({});
@@ -25,10 +26,10 @@ const ProvincesController = {
   }),
   seed: Catcher(async (req, res) => {
     const resp = new Res(res);
-    const result = await ProvinceModel.insertMany(provinces)
+    const result = await districtModel.insertMany(districts)
     return resp.success({ result });
 
   }),
 };
 
-module.exports = ProvincesController;
+module.exports = districtsController;

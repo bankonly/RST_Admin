@@ -14,7 +14,7 @@ const InitialDatabase = () =>
       useUnifiedTopology: true,
       useFindAndModify: false,
       useCreateIndex: true,
-      // replicaSet: "rs",
+      replicaSet: "rs",
     })
     .then(() => console.log("Database Connected"))
     .catch(err => console.log(err));
