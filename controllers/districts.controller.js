@@ -6,7 +6,16 @@ const { districts } = require('../seeders/districts.json')
 const districtsController = {
   list: Catcher(async (req, res) => {
     const resp = new Res(res);
-    return resp.success({});
+    const result = await districtModel.aggregate([{
+      $lookup: {
+        from: "provinces",
+        localField: "province",
+        foreignField: "id",
+        as: "provinces"
+      }
+    }]
+    );
+    return resp.success({ data: result });
   }),
   get: Catcher(async (req, res) => {
     const resp = new Res(res);
