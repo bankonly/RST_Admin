@@ -3,14 +3,26 @@ const { DB_TIMESTAMP_CONFIG } = require("../utils/common-func");
 
 const model_name = "villages";
 
-const schema = new mongoose.Schema(
+var schema = new mongoose.Schema(
   {
-    field: { type: String, required: true },
-    reference: { type: mongoose.Schema.Types.ObjectId, ref: "collection_name" },
+    id: { type: String, unique: true, required: true },
+    vill_name: { type: String, required: true },
+    vill_name_en: { type: String, required: false },
+    district: { type: mongoose.Schema.Types.Number, ref: "districts" },
     deleted_at: { type: Date, default: null },
   },
   DB_TIMESTAMP_CONFIG
 );
+
+schema.virtual('districts', {
+  ref: 'districts',
+  localField: 'district',
+  foreignField: 'id',
+  justOne: true
+});
+
+schema.set('toObject', { virtuals: true });
+schema.set('toJSON', { virtuals: true });
 
 const VillagesModel = mongoose.model(model_name, schema, model_name);
 
