@@ -11,7 +11,7 @@ cp .env.example .env
 ```
 APP_NAME=NODESTARTER
 APP_HOST=http://127.0.0.1
-APP_PORT=2020
+APP_PORT=3000
 ENV_APP=local
 
 DB_CLOUD=

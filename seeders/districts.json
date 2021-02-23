@@ -1,0 +1,892 @@
+{
+    "districts": [
+        {
+            "id": 1,
+            "dr_name": "ຈັນທະບູລີ",
+            "dr_name_en": "Chanthabuly",
+            "province": 1
+        },
+        {
+            "id": 2,
+            "dr_name": "ສີໂຄດຕະບອງ",
+            "dr_name_en": "Sikhottabong",
+            "province": 1
+        },
+        {
+            "id": 3,
+            "dr_name": "ໄຊເສດຖາ",
+            "dr_name_en": "Xaysetha",
+            "province": 1
+        },
+        {
+            "id": 4,
+            "dr_name": "ສີສັດຕະນາກ",
+            "dr_name_en": "Sisattanak",
+            "province": 1
+        },
+        {
+            "id": 5,
+            "dr_name": "ນາຊາຍທອງ",
+            "dr_name_en": "Naxaithong",
+            "province": 1
+        },
+        {
+            "id": 6,
+            "dr_name": "ໄຊທານີ",
+            "dr_name_en": "Xaythany",
+            "province": 1
+        },
+        {
+            "id": 7,
+            "dr_name": "ຫາດຊາຍຟອງ",
+            "dr_name_en": "Hadxaifong",
+            "province": 1
+        },
+        {
+            "id": 8,
+            "dr_name": "ສັງທອງ",
+            "dr_name_en": "Sangthong",
+            "province": 1
+        },
+        {
+            "id": 9,
+            "dr_name": "ປາກງື່ມ",
+            "dr_name_en": "Parkngum",
+            "province": 1
+        },
+        {
+            "id": 10,
+            "dr_name": "ຜົ້ງສາລີ",
+            "dr_name_en": "Phongsaly",
+            "province": 2
+        },
+        {
+            "id": 11,
+            "dr_name": "ໃຫມ່",
+            "dr_name_en": "May",
+            "province": 2
+        },
+        {
+            "id": 12,
+            "dr_name": "ຂວາ",
+            "dr_name_en": "Khua",
+            "province": 2
+        },
+        {
+            "id": 13,
+            "dr_name": "ສຳພັນ",
+            "dr_name_en": "Samphanh",
+            "province": 2
+        },
+        {
+            "id": 14,
+            "dr_name": "ບູນເຫນືອ",
+            "dr_name_en": "Bounneua",
+            "province": 2
+        },
+        {
+            "id": 15,
+            "dr_name": "ຍອດອູ",
+            "dr_name_en": "Nhot ou",
+            "province": 2
+        },
+        {
+            "id": 16,
+            "dr_name": "ບູນໃຕ້",
+            "dr_name_en": "Boontai",
+            "province": 2
+        },
+        {
+            "id": 17,
+            "dr_name": "ຫລວງນ້ຳທາ",
+            "dr_name_en": "Luangnamtha",
+            "province": 3
+        },
+        {
+            "id": 18,
+            "dr_name": "ສິງ",
+            "dr_name_en": "Sing",
+            "province": 3
+        },
+        {
+            "id": 19,
+            "dr_name": "ລອງ",
+            "dr_name_en": "Long",
+            "province": 3
+        },
+        {
+            "id": 20,
+            "dr_name": "ວຽງພູຄາ",
+            "dr_name_en": "Viengphoukha",
+            "province": 3
+        },
+        {
+            "id": 21,
+            "dr_name": "ນາແລ",
+            "dr_name_en": "Nalae",
+            "province": 3
+        },
+        {
+            "id": 22,
+            "dr_name": "ໄຊ",
+            "dr_name_en": "Xay",
+            "province": 4
+        },
+        {
+            "id": 23,
+            "dr_name": "ຫລາ",
+            "dr_name_en": "La",
+            "province": 4
+        },
+        {
+            "id": 24,
+            "dr_name": "ນາໝໍ້ ",
+            "dr_name_en": "Namor",
+            "province": 4
+        },
+        {
+            "id": 25,
+            "dr_name": "ງາ",
+            "dr_name_en": "Nga",
+            "province": 4
+        },
+        {
+            "id": 26,
+            "dr_name": "ແບງ",
+            "dr_name_en": "Beng",
+            "province": 4
+        },
+        {
+            "id": 27,
+            "dr_name": "ຮຸນ",
+            "dr_name_en": "Hoon",
+            "province": 4
+        },
+        {
+            "id": 28,
+            "dr_name": "ປາກແບງ",
+            "dr_name_en": "Pakbeng",
+            "province": 4
+        },
+        {
+            "id": 29,
+            "dr_name": "ຫ້ວຍຊາຍ",
+            "dr_name_en": "Houixay",
+            "province": 5
+        },
+        {
+            "id": 30,
+            "dr_name": "ຕົ້ນເຜິ້ງ",
+            "dr_name_en": "Tongpheung",
+            "province": 5
+        },
+        {
+            "id": 31,
+            "dr_name": "ເມິງ",
+            "dr_name_en": "Meung",
+            "province": 5
+        },
+        {
+            "id": 32,
+            "dr_name": "ຜາອຸດົມ",
+            "dr_name_en": "Phaoudom",
+            "province": 5
+        },
+        {
+            "id": 33,
+            "dr_name": "ປາກທາ",
+            "dr_name_en": "Paktha",
+            "province": 5
+        },
+        {
+            "id": 34,
+            "dr_name": "ຫຼວງພະບາງ",
+            "dr_name_en": "Luangprabang",
+            "province": 6
+        },
+        {
+            "id": 35,
+            "dr_name": "ຊຽງເງິນ",
+            "dr_name_en": "Xiengngeun",
+            "province": 6
+        },
+        {
+            "id": 36,
+            "dr_name": "ນານ",
+            "dr_name_en": "Nan",
+            "province": 6
+        },
+        {
+            "id": 37,
+            "dr_name": "ປາກອູ",
+            "dr_name_en": "Parkou",
+            "province": 6
+        },
+        {
+            "id": 38,
+            "dr_name": "ນ້ຳບາກ",
+            "dr_name_en": "Nambak",
+            "province": 6
+        },
+        {
+            "id": 39,
+            "dr_name": "ງອຍ",
+            "dr_name_en": "Ngoi",
+            "province": 6
+        },
+        {
+            "id": 40,
+            "dr_name": "ປາກແຊງ",
+            "dr_name_en": "Pakxeng",
+            "province": 6
+        },
+        {
+            "id": 41,
+            "dr_name": "ໂພນໄຊ",
+            "dr_name_en": "Phonxay",
+            "province": 6
+        },
+        {
+            "id": 42,
+            "dr_name": "ຈອມເພັດ",
+            "dr_name_en": "Chomphet",
+            "province": 6
+        },
+        {
+            "id": 43,
+            "dr_name": "ວຽງຄຳ",
+            "dr_name_en": "Viengkham",
+            "province": 6
+        },
+        {
+            "id": 44,
+            "dr_name": "ພູຄູນ",
+            "dr_name_en": "Phoukhoune",
+            "province": 6
+        },
+        {
+            "id": 45,
+            "dr_name": "ໂພນທອງ",
+            "dr_name_en": "Phonthong",
+            "province": 6
+        },
+        {
+            "id": 46,
+            "dr_name": "ຊຳເໜືອ",
+            "dr_name_en": "Xamneua",
+            "province": 7
+        },
+        {
+            "id": 47,
+            "dr_name": "ຊຽງຄໍ້",
+            "dr_name_en": "Xiengkhor",
+            "province": 7
+        },
+        {
+            "id": 48,
+            "dr_name": "ຮ້ຽມ",
+            "dr_name_en": "Hiam",
+            "province": 7
+        },
+        {
+            "id": 49,
+            "dr_name": "ວຽງໄຊ",
+            "dr_name_en": "Viengxay",
+            "province": 7
+        },
+        {
+            "id": 50,
+            "dr_name": "ຫົວເມືອງ",
+            "dr_name_en": "Huameuang",
+            "province": 7
+        },
+        {
+            "id": 51,
+            "dr_name": "ຊຳໃຕ້",
+            "dr_name_en": "Xamtay",
+            "province": 7
+        },
+        {
+            "id": 52,
+            "dr_name": "ສົບເບົາ",
+            "dr_name_en": "Sopbao",
+            "province": 7
+        },
+        {
+            "id": 53,
+            "dr_name": "ແອດ",
+            "dr_name_en": "Add",
+            "province": 7
+        },
+        {
+            "id": 54,
+            "dr_name": "ກວັນ",
+            "dr_name_en": "Kuan",
+            "province": 7
+        },
+        {
+            "id": 55,
+            "dr_name": "ຊອນ",
+            "dr_name_en": "Xone",
+            "province": 7
+        },
+        {
+            "id": 56,
+            "dr_name": "ໄຊຍະບູລີ",
+            "dr_name_en": "Xayabury",
+            "province": 8
+        },
+        {
+            "id": 57,
+            "dr_name": "ຄອບ",
+            "dr_name_en": "Khop",
+            "province": 8
+        },
+        {
+            "id": 58,
+            "dr_name": "ຫົງສາ",
+            "dr_name_en": "Hongsa",
+            "province": 8
+        },
+        {
+            "id": 59,
+            "dr_name": "ເງິນ",
+            "dr_name_en": "Ngeun",
+            "province": 8
+        },
+        {
+            "id": 60,
+            "dr_name": "ຊຽງຮ່ອນ",
+            "dr_name_en": "Xienghone",
+            "province": 8
+        },
+        {
+            "id": 61,
+            "dr_name": "ພຽງ",
+            "dr_name_en": "Phieng",
+            "province": 8
+        },
+        {
+            "id": 62,
+            "dr_name": "ປາກລາຍ",
+            "dr_name_en": "Parklai",
+            "province": 8
+        },
+        {
+            "id": 63,
+            "dr_name": "ແກ່ນທ້າວ",
+            "dr_name_en": "Kenethao",
+            "province": 8
+        },
+        {
+            "id": 64,
+            "dr_name": "ບໍ່ແຕນ",
+            "dr_name_en": "Botene",
+            "province": 8
+        },
+        {
+            "id": 65,
+            "dr_name": "ທົ່ງມີໄຊ",
+            "dr_name_en": "Thongmyxay",
+            "province": 8
+        },
+        {
+            "id": 66,
+            "dr_name": "ໄຊຊະຖານ",
+            "dr_name_en": "Xaysathan",
+            "province": 8
+        },
+        {
+            "id": 67,
+            "dr_name": "ແປກ",
+            "dr_name_en": "Pek",
+            "province": 9
+        },
+        {
+            "id": 68,
+            "dr_name": "ຄຳ",
+            "dr_name_en": "Kham",
+            "province": 9
+        },
+        {
+            "id": 69,
+            "dr_name": "ໜອງແຮດ",
+            "dr_name_en": "Nonghed",
+            "province": 9
+        },
+        {
+            "id": 70,
+            "dr_name": "ຄູນ",
+            "dr_name_en": "Khoune",
+            "province": 9
+        },
+        {
+            "id": 71,
+            "dr_name": "ໝອກ",
+            "dr_name_en": "Mork",
+            "province": 9
+        },
+        {
+            "id": 72,
+            "dr_name": "ພູກູດ",
+            "dr_name_en": "Phookood",
+            "province": 9
+        },
+        {
+            "id": 73,
+            "dr_name": "ຜາໄຊ",
+            "dr_name_en": "Phaxay",
+            "province": 9
+        },
+        {
+            "id": 74,
+            "dr_name": "ໂພນໂຮງ",
+            "dr_name_en": "Phonhong",
+            "province": 10
+        },
+        {
+            "id": 75,
+            "dr_name": "ທຸລະຄົມ",
+            "dr_name_en": "Thoulakhom",
+            "province": 10
+        },
+        {
+            "id": 76,
+            "dr_name": "ແກ້ວອຸດົມ",
+            "dr_name_en": "Keooudom",
+            "province": 10
+        },
+        {
+            "id": 77,
+            "dr_name": "ກາສີ",
+            "dr_name_en": "Kasy",
+            "province": 10
+        },
+        {
+            "id": 78,
+            "dr_name": "ວັງວຽງ",
+            "dr_name_en": "Vangvieng",
+            "province": 10
+        },
+        {
+            "id": 79,
+            "dr_name": "ເຟືອງ",
+            "dr_name_en": "Feuang",
+            "province": 10
+        },
+        {
+            "id": 80,
+            "dr_name": "ຊະນະຄາມ",
+            "dr_name_en": "Xanakham",
+            "province": 10
+        },
+        {
+            "id": 81,
+            "dr_name": "ແມດ",
+            "dr_name_en": "Mad",
+            "province": 10
+        },
+        {
+            "id": 82,
+            "dr_name": "ວຽງຄຳ",
+            "dr_name_en": "Viengkham",
+            "province": 10
+        },
+        {
+            "id": 83,
+            "dr_name": "ຫີນເຫີບ",
+            "dr_name_en": "Hinherb",
+            "province": 10
+        },
+        {
+            "id": 84,
+            "dr_name": "ໝື່ນ",
+            "dr_name_en": "Meun",
+            "province": 10
+        },
+        {
+            "id": 85,
+            "dr_name": "ປາກຊັນ",
+            "dr_name_en": "Pakxane",
+            "province": 11
+        },
+        {
+            "id": 86,
+            "dr_name": "ທ່າພະບາດ",
+            "dr_name_en": "Thaphabath",
+            "province": 11
+        },
+        {
+            "id": 87,
+            "dr_name": "ປາກກະດິງ",
+            "dr_name_en": "Pakkading",
+            "province": 11
+        },
+        {
+            "id": 88,
+            "dr_name": "ບໍລິຄັນ",
+            "dr_name_en": "Bolikhanh",
+            "province": 11
+        },
+        {
+            "id": 89,
+            "dr_name": "ຄຳເກີດ",
+            "dr_name_en": "Khamkheuth",
+            "province": 11
+        },
+        {
+            "id": 90,
+            "dr_name": "ວຽງທອງ",
+            "dr_name_en": "Viengthong",
+            "province": 11
+        },
+        {
+            "id": 91,
+            "dr_name": "ໄຊຈຳພອນ",
+            "dr_name_en": "Xaychamphone",
+            "province": 11
+        },
+        {
+            "id": 92,
+            "dr_name": "ທ່າແຂກ",
+            "dr_name_en": "Thakhek",
+            "province": 12
+        },
+        {
+            "id": 93,
+            "dr_name": "ມະຫາໄຊ",
+            "dr_name_en": "Mahaxay",
+            "province": 12
+        },
+        {
+            "id": 94,
+            "dr_name": "ໜອງບົກ",
+            "dr_name_en": "Nongbok",
+            "province": 12
+        },
+        {
+            "id": 95,
+            "dr_name": "ຫີນບູນ",
+            "dr_name_en": "Hinboon",
+            "province": 12
+        },
+        {
+            "id": 96,
+            "dr_name": "ຍົມມະລາດ",
+            "dr_name_en": "Nhommalath",
+            "province": 12
+        },
+        {
+            "id": 97,
+            "dr_name": "ບົວລະພາ",
+            "dr_name_en": "Bualapha",
+            "province": 12
+        },
+        {
+            "id": 98,
+            "dr_name": "ນາກາຍ",
+            "dr_name_en": "Nakai",
+            "province": 12
+        },
+        {
+            "id": 99,
+            "dr_name": "ເຊບັ້ງໄຟ",
+            "dr_name_en": "Xebangfay",
+            "province": 12
+        },
+        {
+            "id": 100,
+            "dr_name": "ໄຊບົວທອງ",
+            "dr_name_en": "Xaybuathong",
+            "province": 12
+        },
+        {
+            "id": 101,
+            "dr_name": "ຄູນຄຳ",
+            "dr_name_en": "Khounkham",
+            "province": 12
+        },
+        {
+            "id": 102,
+            "dr_name": "ໄກສອນ ພົມວິຫານ",
+            "dr_name_en": "Kaisone Phomvihane",
+            "province": 13
+        },
+        {
+            "id": 103,
+            "dr_name": "ອຸທຸມພອນ",
+            "dr_name_en": "Outhoumphone",
+            "province": 13
+        },
+        {
+            "id": 104,
+            "dr_name": "ອາດສະພັງທອງ",
+            "dr_name_en": "Atsaphangthong",
+            "province": 13
+        },
+        {
+            "id": 105,
+            "dr_name": "ພີນ",
+            "dr_name_en": "Phine",
+            "province": 13
+        },
+        {
+            "id": 106,
+            "dr_name": "ເຊໂປນ",
+            "dr_name_en": "Xepon",
+            "province": 13
+        },
+        {
+            "id": 107,
+            "dr_name": "ນອງ",
+            "dr_name_en": "Nong",
+            "province": 13
+        },
+        {
+            "id": 108,
+            "dr_name": "ທ່າປາງທອງ",
+            "dr_name_en": "Thapangthong",
+            "province": 13
+        },
+        {
+            "id": 109,
+            "dr_name": "ສອງຄອນ",
+            "dr_name_en": "Songkhone",
+            "province": 13
+        },
+        {
+            "id": 110,
+            "dr_name": "ຈຳພອນ",
+            "dr_name_en": "Champhone",
+            "province": 13
+        },
+        {
+            "id": 111,
+            "dr_name": "ຊົນບູລີ",
+            "dr_name_en": "Xonbuly",
+            "province": 13
+        },
+        {
+            "id": 112,
+            "dr_name": "ໄຊບູລີ",
+            "dr_name_en": "Xaybouly",
+            "province": 13
+        },
+        {
+            "id": 113,
+            "dr_name": "ວິລະບູລີ",
+            "dr_name_en": "Vilabuly",
+            "province": 13
+        },
+        {
+            "id": 114,
+            "dr_name": "ອາດສະພອນ",
+            "dr_name_en": "Atsaphone",
+            "province": 13
+        },
+        {
+            "id": 115,
+            "dr_name": "ໄຊພູທອງ",
+            "dr_name_en": "Xayphoothong",
+            "province": 13
+        },
+        {
+            "id": 116,
+            "dr_name": "ພະລານໄຊ",
+            "dr_name_en": "Phalanxay",
+            "province": 13
+        },
+        {
+            "id": 117,
+            "dr_name": "ສາລະວັນ",
+            "dr_name_en": "Saravane",
+            "province": 14
+        },
+        {
+            "id": 118,
+            "dr_name": "ຕາໂອ້ຍ",
+            "dr_name_en": "Ta oi",
+            "province": 14
+        },
+        {
+            "id": 119,
+            "dr_name": "ຕຸ້ມລານ",
+            "dr_name_en": "Toomlam",
+            "province": 14
+        },
+        {
+            "id": 120,
+            "dr_name": "ລະຄອນເພັງ",
+            "dr_name_en": "Lakhonepheng",
+            "province": 14
+        },
+        {
+            "id": 121,
+            "dr_name": "ວາປີ",
+            "dr_name_en": "Vapy",
+            "province": 14
+        },
+        {
+            "id": 122,
+            "dr_name": "ຄົງເຊໂດນ",
+            "dr_name_en": "Kongxedone",
+            "province": 14
+        },
+        {
+            "id": 123,
+            "dr_name": "ເລົ່າງາມ",
+            "dr_name_en": "Lao ngarm",
+            "province": 14
+        },
+        {
+            "id": 124,
+            "dr_name": "ສະມ້ວຍ",
+            "dr_name_en": "Samoi",
+            "province": 14
+        },
+        {
+            "id": 125,
+            "dr_name": "ລະມາມ",
+            "dr_name_en": "Lamarm",
+            "province": 15
+        },
+        {
+            "id": 126,
+            "dr_name": "ກະລືມ",
+            "dr_name_en": "Kaleum",
+            "province": 15
+        },
+        {
+            "id": 127,
+            "dr_name": "ດາກຈຶງ",
+            "dr_name_en": "Dakcheung",
+            "province": 15
+        },
+        {
+            "id": 128,
+            "dr_name": "ທ່າແຕງ",
+            "dr_name_en": "Thateng",
+            "province": 15
+        },
+        {
+            "id": 129,
+            "dr_name": "ປາກເຊ",
+            "dr_name_en": "Pakse",
+            "province": 16
+        },
+        {
+            "id": 130,
+            "dr_name": "ຊະນະສົມບູນ",
+            "dr_name_en": "Sanasomboon",
+            "province": 16
+        },
+        {
+            "id": 131,
+            "dr_name": "ບາຈຽງຈະເລີນສຸກ",
+            "dr_name_en": "Bachiangchaleunsook",
+            "province": 16
+        },
+        {
+            "id": 132,
+            "dr_name": "ປາກຊ່ອງ",
+            "dr_name_en": "Pakxong",
+            "province": 16
+        },
+        {
+            "id": 133,
+            "dr_name": "ປະທຸມພອນ",
+            "dr_name_en": "Pathoumphone",
+            "province": 16
+        },
+        {
+            "id": 134,
+            "dr_name": "ໂພນທອງ",
+            "dr_name_en": "Phonthong",
+            "province": 16
+        },
+        {
+            "id": 135,
+            "dr_name": "ຈຳປາສັກ",
+            "dr_name_en": "Champasak",
+            "province": 16
+        },
+        {
+            "id": 136,
+            "dr_name": "ສຸຂຸມາ",
+            "dr_name_en": "Sukhuma",
+            "province": 16
+        },
+        {
+            "id": 137,
+            "dr_name": "ມຸນລະປະໂມກ",
+            "dr_name_en": "Moonlapamok",
+            "province": 16
+        },
+        {
+            "id": 138,
+            "dr_name": "ໂຂງ",
+            "dr_name_en": "Khong",
+            "province": 16
+        },
+        {
+            "id": 139,
+            "dr_name": "ໄຊເສດຖາ",
+            "dr_name_en": "Xaysettha",
+            "province": 17
+        },
+        {
+            "id": 140,
+            "dr_name": "ສາມະຄີໄຊ",
+            "dr_name_en": "Samakkixay",
+            "province": 17
+        },
+        {
+            "id": 141,
+            "dr_name": "ສະໜາມໄຊ",
+            "dr_name_en": "Sanamxay",
+            "province": 17
+        },
+        {
+            "id": 142,
+            "dr_name": "ສານໄຊ",
+            "dr_name_en": "Sanxay",
+            "province": 17
+        },
+        {
+            "id": 143,
+            "dr_name": "ພູວົງ",
+            "dr_name_en": "Phouvong",
+            "province": 17
+        },
+        {
+            "id": 144,
+            "dr_name": "ອານຸວົງ",
+            "dr_name_en": "Anouvong",
+            "province": 18
+        },
+        {
+            "id": 145,
+            "dr_name": "ທ່າໂທມ",
+            "dr_name_en": "Thathom",
+            "province": 18
+        },
+        {
+            "id": 146,
+            "dr_name": "ລ້ອງແຈ້ງ",
+            "dr_name_en": "Longcheng",
+            "province": 18
+        },
+        {
+            "id": 147,
+            "dr_name": "ຮົ່ມ",
+            "dr_name_en": "Hom",
+            "province": 18
+        },
+        {
+            "id": 148,
+            "dr_name": "ລ້ອງຊານ",
+            "dr_name_en": "Longsan",
+            "province": 18
+        }
+    ]
+}

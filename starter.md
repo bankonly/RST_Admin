@@ -77,3 +77,35 @@ TOKEN_LIFE_TIME_RESET=1m
 RESET_OTP_LINK
 ```
 >setup your server file 
+
+
+>replicaSet set  ( transition )
+
+```
+mkdir backup &&
+cd backup &&
+mkdir db1 db2 db3
+
+/Users/vongkeoksv/dev/backup
+
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db1.log --dbpath /Users/vongkeoksv/dev/backup/db1 --port 40000 &
+
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db2.log --dbpath /Users/vongkeoksv/dev/backup/db2 --port 40001 &
+
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db3.log --dbpath /Users/vongkeoksv/dev/backup/db3 --port 40002 &
+
+config = {_id: "db", members:[
+ {_id: 0, host: "localhost:40000"},
+ {_id: 1, host: "localhost:40001"},
+ {_id: 2, host: "localhost:40002"}]
+};
+
+rs.initiate(config);
+rs.status();
+
+mongo --host db/localhost:40000,localhost:40001,localhost:40002
+
+
+
+db.isMaster()
+```
