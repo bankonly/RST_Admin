@@ -36,6 +36,7 @@
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "@hapi/joi": "^17.1.1",
+    "apollo-server-express": "^2.21.0",
     "axios": "^0.19.2",
     "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
@@ -53,6 +54,7 @@
     "express-useragent": "^1.0.15",
     "firebase-admin": "^8.13.0",
     "formidable": "^1.2.2",
+    "graphql": "^15.5.0",
     "i": "^0.3.6",
     "ip": "^1.1.5",
     "is-valid-coordinates": "^1.0.0",
