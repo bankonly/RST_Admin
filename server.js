@@ -9,7 +9,6 @@ const InitialRoute = require("./routes/setup");
 const typeDefs = require('./graphql/query')
 const resolvers = require('./graphql/resolvers')
 
-
 const server = new ApolloServer({ typeDefs, resolvers });
 
 server.applyMiddleware({ app });
