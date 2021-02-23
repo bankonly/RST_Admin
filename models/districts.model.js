@@ -3,7 +3,7 @@ const { DB_TIMESTAMP_CONFIG } = require("../utils/common-func");
 
 const model_name = "districts";
 
-const schema = new mongoose.Schema(
+var schema = new mongoose.Schema(
   {
     id: {
       type: Number, unique: true,
@@ -16,7 +16,15 @@ const schema = new mongoose.Schema(
   },
   DB_TIMESTAMP_CONFIG
 );
+schema.virtual('provinces', {
+  ref: 'provinces',
+  localField: 'province',
+  foreignField: 'id',
+  justOne: true
+});
 
+schema.set('toObject', { virtuals: true });
+schema.set('toJSON', { virtuals: true });
 const districtsModel = mongoose.model(model_name, schema, model_name);
 
 module.exports = districtsModel;
