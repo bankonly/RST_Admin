@@ -40,7 +40,7 @@ const VillagesController = {
     //     select: 'pr_name pr_name_en',
     //   }
     // }).select(['vill_name', 'vill_name_en', 'district']).sort([['id', 1]]).limit(10);
-    const paginate = await Mongo.find(villagesModel, {
+    const paginate = await Mongo.find(villagesModel.find().select(['vill_name', 'vill_name_en', 'district']), {
       paginate: {
         data_set: req.query,
         force: true
