@@ -29,4 +29,4 @@ const listener = app.listen(process.env.APP_PORT);
 //config socket Io
 InitSocket(listener);
 
-LOG("🚀 Server running at http://localhost:" + process.env.APP_PORT);
+LOG("🚀 Server ready at http://localhost:" + process.env.APP_PORT);
