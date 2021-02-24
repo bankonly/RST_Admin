@@ -2,10 +2,12 @@ const Catcher = require("../middlewares/async");
 const { Res } = require("../utils/common-func");
 const { provinces } = require('../seeders/province.json')
 const ProvinceModel = require('../models/provinces.model')
+const { Io } = require('../configs/socket')
 const ProvincesController = {
   list: Catcher(async (req, res) => {
     const resp = new Res(res);
     const items = await ProvinceModel.find({}).select(['id', 'pr_name', 'pr_name_en']).sort([['id', 1]]);
+    Io().emit('msg', { id: "12312" })
     return resp.success({ data: items });
   }),
 
