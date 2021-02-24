@@ -8,7 +8,7 @@ const ProvincesRouter = require("./provinces.route");
 const districtsRouter = require("./districts.route");
 const VillagesRouter = require("./villages.route");
 
-const InitialRoute = (app) => {
+const InitialRoute = app => {
   app.use("/api", Auth, [UserRouter, SessionRoute]);
   app.use("/api/otp", OtpAuth, [OtpRouter]);
 

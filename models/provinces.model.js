@@ -7,8 +7,9 @@ const model_name = "provinces";
 const schema = new mongoose.Schema(
   {
     id: {
-      type: Number, unique: true,
-      required: true
+      type: Number,
+      unique: true,
+      required: true,
     },
     pr_name: { type: String, required: true },
     pr_name_en: { type: String, required: true },

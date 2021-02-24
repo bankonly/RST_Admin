@@ -86,13 +86,13 @@ mkdir backup &&
 cd backup &&
 mkdir db1 db2 db3
 
-/Users/macbook/dev/backup
+/Users/vongkeoksv/dev/backup
 
-mongod --replSet db --logpath /Users/macbook/dev/backup/db1.log --dbpath /Users/macbook/dev/backup/db1 --port 40000 &
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db1.log --dbpath /Users/vongkeoksv/dev/backup/db1 --port 40000 &
 
-mongod --replSet db --logpath /Users/macbook/dev/backup/db2.log --dbpath /Users/macbook/dev/backup/db2 --port 40001 &
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db2.log --dbpath /Users/vongkeoksv/dev/backup/db2 --port 40001 &
 
-mongod --replSet db --logpath /Users/macbook/dev/backup/db3.log --dbpath /Users/macbook/dev/backup/db3 --port 40002 &
+mongod --replSet db --logpath /Users/vongkeoksv/dev/backup/db3.log --dbpath /Users/vongkeoksv/dev/backup/db3 --port 40002 &
 
 config = {_id: "db", members:[
  {_id: 0, host: "localhost:40000"},
