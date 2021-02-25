@@ -11,6 +11,10 @@ const UserValidator = {
       username: Joi.string().required().min(5).trim(),
       password: Joi.string().required().min(5).trim(),
       confirm_password: Joi.any().valid(Joi.ref("password")).required(),
+      first_name: Joi.string().min(6),
+      last_name: Joi.string().min(6),
+      phone: Joi.string().min(8).required(),
+      provider: Joi.string(),
     });
     await schema.validateAsync(req.body);
 
@@ -19,6 +23,8 @@ const UserValidator = {
 
     await Mongo.findExist(UserModel, { condition: { username: req.body.username }, key: "username" });
     await Mongo.findExist(UserModel, { condition: { email: req.body.email }, key: "email" });
+    await Mongo.findExist(UserModel, { condition: { phone: req.body.phone }, key: "phone" });
+    await Mongo.findExist(UserModel, { condition: { first_name: req.body.first_name }, key: "first_name" });
 
     next();
   }),

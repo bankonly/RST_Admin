@@ -9,6 +9,10 @@ const schema = new mongoose.Schema(
     password: { type: String, required: true },
     email: { type: String, default: null },
     img: { type: String, default: null },
+    first_name: { type: String, default: null },
+    last_name: { type: String, default: null },
+    phone: { type: String, default: null },
+    provider: { type: String, default: null },
     deleted_at: { type: Date, default: null },
   },
   DB_TIMESTAMP_CONFIG

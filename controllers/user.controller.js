@@ -27,7 +27,7 @@ const UserController = {
 
     const payload = { _id: found_user._id };
     const access_credential = JwtGenerator(payload);
-
+    
     return resp.success({ data: access_credential });
   }),
 

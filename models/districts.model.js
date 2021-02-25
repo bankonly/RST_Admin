@@ -5,10 +5,7 @@ const model_name = "districts";
 
 var schema = new mongoose.Schema(
   {
-    id: {
-      type: Number, unique: true,
-      required: true
-    },
+    id: { type: Number, unique: true, required: true },
     dr_name: { type: String, required: true },
     dr_name_en: { type: String, required: true },
     province: { type: mongoose.Schema.Types.Number, ref: "provinces" },
@@ -16,15 +13,16 @@ var schema = new mongoose.Schema(
   },
   DB_TIMESTAMP_CONFIG
 );
-schema.virtual('provinces', {
-  ref: 'provinces',
-  localField: 'province',
-  foreignField: 'id',
-  justOne: true
+
+schema.virtual("provinces", {
+  ref: "provinces",
+  localField: "province",
+  foreignField: "id",
+  justOne: true,
 });
 
-schema.set('toObject', { virtuals: true });
-schema.set('toJSON', { virtuals: true });
+schema.set("toObject", { virtuals: true });
+schema.set("toJSON", { virtuals: true });
 const districtsModel = mongoose.model(model_name, schema, model_name);
 
 module.exports = districtsModel;
