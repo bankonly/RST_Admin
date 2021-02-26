@@ -1,6 +1,6 @@
 const Catcher = require("../middlewares/async");
 const { Res } = require("../utils/common-func");
-const districtModel = require('../models/districts.model')
+const districtModel = require('model/models/districts.model')
 const { districts } = require('../seeders/districts.json')
 
 const districtsController = {

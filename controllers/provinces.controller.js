@@ -1,8 +1,8 @@
 const Catcher = require("../middlewares/async");
 const { Res } = require("../utils/common-func");
 const { provinces } = require('../seeders/province.json')
-const ProvinceModel = require('../models/provinces.model')
-const { Io } = require('../configs/socket')
+const ProvinceModel = require('model/models/provinces.model')
+const { Io } = require('../_configs/socket')
 const ProvincesController = {
   list: Catcher(async (req, res) => {
     const resp = new Res(res);

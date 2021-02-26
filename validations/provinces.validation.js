@@ -11,8 +11,7 @@ const ProvincesValidator = {
       });
       await schema.validateAsync(req.body);
     },
-    false,
-    false
+    { error_code: 400 }
   ),
 };
 

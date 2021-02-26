@@ -11,8 +11,7 @@ const OtpValidator = {
       await schema.validateAsync(req.body);
       return next();
     },
-    false,
-    false
+    { error_code: 400 }
   ),
 };
 

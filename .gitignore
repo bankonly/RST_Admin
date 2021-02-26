@@ -109,6 +109,7 @@ dist
 private.key
 private.key.pub
 
+config./
 
 img/
 

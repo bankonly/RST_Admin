@@ -2,6 +2,7 @@ const Res = require("ssv-response");
 const Utils = require("ssv-utils");
 const Jwt = require("jsonwebtoken");
 const fs = require("fs");
+const FileUpload = require("ssv-file-upload");
 
 const LOG = (msg) => console.log(msg);
 module.exports.LOG = LOG;
@@ -12,6 +13,7 @@ module.exports.DB_TIMESTAMP_CONFIG = {
   },
 };
 module.exports.Res = Res;
+module.exports.FileUpload = FileUpload;
 
 module.exports.JwtGenerator = (payload) => {
   const token = Jwt.sign(payload, process.env.SECRET_KEY, { expiresIn: process.env.TOKEN_LIFE_TIME });

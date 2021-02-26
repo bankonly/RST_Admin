@@ -1,10 +1,11 @@
 const Catcher = require("../middlewares/async");
-const { Res, _, JwtGenerator } = require("../utils/common-func");
-const UserModel = require("../models/user.model");
+const { Res, _, JwtGenerator, FileUpload } = require("../utils/common-func");
+const UserModel = require("model/models/user.model");
 const SessionController = require("./session.controller");
 const OtpController = require("./otp.controller");
 const { auth } = require("firebase-admin");
 const Mongo = require("../utils/mongo-query");
+const Constant = require("../_configs/constant");
 
 const UserController = {
   register: Catcher(async (req, res) => {
@@ -27,7 +28,7 @@ const UserController = {
 
     const payload = { _id: found_user._id };
     const access_credential = JwtGenerator(payload);
-    
+
     return resp.success({ data: access_credential });
   }),
 
@@ -61,7 +62,7 @@ const UserController = {
     const new_password = req.body.new_password;
 
     // Find old password
-    const found_user = await Mongo.findById(UserModel, { _id: req.user._id,select:"-__v" });
+    const found_user = await Mongo.findById(UserModel, { _id: req.user._id, select: "-__v" });
 
     const verify_password = await _.bcryptFn.verifyPassword(password, found_user.password);
     if (!verify_password) throw new Error(`400::invalid password`);
@@ -70,6 +71,27 @@ const UserController = {
     await found_user.save();
 
     return resp.success({});
+  }),
+  updateProfileImage: Catcher(async (req, res) => {
+    const resp = new Res(res);
+    const user_id = req.user._id.toString();
+
+    const found_user = await Mongo.findById(UserModel, { _id: user_id, select: "-__v" });
+
+    if (!_.isFile(req.files, "img")) throw new Error("400::img is requried");
+    const upload = FileUpload.fileUpload({ path: Constant.image_path.user, file: req.files.img, resize: [800, 256] });
+    if (!upload.status) throw new Error(upload.msg);
+
+    const remove_img = found_user.img;
+
+    found_user.img = upload.data;
+    await found_user.save();
+
+    if (remove_img) {
+      FileUpload.removeFile({ path: Constant.image_path.user, subFolder: [800, 256], fileName: remove_img });
+    }
+
+    return resp.success({ data: found_user.img });
   }),
 };
 

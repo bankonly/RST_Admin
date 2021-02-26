@@ -1,6 +1,6 @@
 const Catcher = require("../middlewares/async");
 const { Res, _, JwtGenerator, JwtGeneratorResetToken } = require("../utils/common-func");
-const OtpModel = require("../models/opt.model");
+const OtpModel = require("model/models/opt.model");
 const MailFunc = require("../func/mail.func");
 const Jwt = require("jsonwebtoken");
 
@@ -92,10 +92,7 @@ const OtpController = {
     const body = req.body;
     const auth = req.user;
 
-    const otp_data = await OtpModel.findOne({
-      author: auth._id,
-      allow_to_reset: true,
-    });
+    const otp_data = await OtpModel.findOne({ author: auth._id, allow_to_reset: true });
     if (!otp_data) throw new Error("400::_id not found");
 
     const user = await model.findById(auth._id);

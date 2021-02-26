@@ -1,5 +1,5 @@
-const provinceModel = require("../models/provinces.model");
-const districtModel = require("../models/districts.model");
+const provinceModel = require("model/models/provinces.model");
+const districtModel = require("model/models/districts.model");
 
 const resolvers = {
   Query: {

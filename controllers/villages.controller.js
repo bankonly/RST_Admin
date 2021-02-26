@@ -1,7 +1,7 @@
 const Catcher = require("../middlewares/async");
 const { Res } = require("../utils/common-func");
 const { villages } = require("../seeders/villages.json");
-const villagesModel = require("../models/villages.model");
+const villagesModel = require("model/models/villages.model");
 const Mongo = require("../utils/mongo-query");
 const VillagesController = {
   list: Catcher(async (req, res) => {
