@@ -14,7 +14,6 @@ const UserValidator = {
       first_name: Joi.string().min(6),
       last_name: Joi.string().min(6),
       phone: Joi.string().min(8).required(),
-      provider: Joi.string(),
     });
     await schema.validateAsync(req.body);
 
